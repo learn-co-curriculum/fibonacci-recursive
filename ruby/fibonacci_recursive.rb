@@ -1,15 +1,20 @@
-def method_name(arg)
+def fibonacci(n)
   # type your code in here
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts "Expecting: 3"
-  puts method_name([2, 1, 3, 3, 2])
+  puts "Expecting: 0"
+  puts fibonacci(0)
 
   puts
 
-  puts "Expecting: -1"
-  puts method_name([1, 2, 3, 4])
+  puts "Expecting: 1"
+  puts fibonacci(2)
+
+  puts
+
+  puts "Expecting: 55"
+  puts fibonacci(10)
 
   # Don't forget to add your own!
 end

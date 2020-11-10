@@ -51,6 +51,8 @@ Hint: Code the base cases first.
 
 Hint: You may wish to look up how the fibonacci sequence is expressed as a formula.
 
+Hint: Start small. What needs to happen if n is 1 or n is 2?
+
 Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
 
 ## Before you start coding:
