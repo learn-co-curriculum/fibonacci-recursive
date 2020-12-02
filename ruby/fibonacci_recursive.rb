@@ -4,17 +4,17 @@ end
 
 if __FILE__ == $PROGRAM_NAME
   puts "Expecting: 0"
-  puts fibonacci(0)
+  puts "=>", fibonacci(0)
 
   puts
 
   puts "Expecting: 1"
-  puts fibonacci(2)
+  puts "=>", fibonacci(2)
 
   puts
 
   puts "Expecting: 55"
-  puts fibonacci(10)
+  puts "=>", fibonacci(10)
 
   # Don't forget to add your own!
 end
