@@ -1,10 +1,16 @@
 # Day 3: Recursive Fibonacci Series
 
-**Fork and then clone me!**
+## Learning Goals
 
-Find the nth element in the Fibonacci series. The Fibonacci sequence starts with a 0 followed by a 1. After that, every value is the sum of the two values preceding it. Here are the first seven values as an example: 0, 1, 1, 2, 3, 5, 8.
+- Solve algorithm problems using recursion
 
-```
+## Instructions
+
+Find the nth element in the Fibonacci series. The Fibonacci sequence starts with
+a 0 followed by a 1. After that, every value is the sum of the two values
+preceding it. Here are the first seven values as an example: 0, 1, 1, 2, 3, 5, 8.
+
+```txt
 Input: 0
 Output: 0
 
@@ -15,7 +21,9 @@ Input: 10
 Output: 55
 ```
 
-If you solved this problem before iteratively, you may wish to convert that solution to a recursive version. Here are two iterative solutions - one in Ruby and one in JS:
+If you solved this problem before iteratively, you may wish to convert that
+solution to a recursive version. Here are two iterative solutions - one in Ruby
+and one in JS:
 
 ```ruby
 def fibonacci(n)
@@ -47,15 +55,16 @@ function fibonacci(n) {
 }
 ```
 
-Hint: Code the base cases first.
+Stuck? Here are some hints:
 
-Hint: You may wish to look up how the fibonacci sequence is expressed as a formula.
+- Code the base cases first.
+- You may wish to look up how the fibonacci sequence is expressed as a formula.
+- Start small. What needs to happen if `n` is 1 or `n` is 2?
 
-Hint: Start small. What needs to happen if n is 1 or n is 2?
+Use the language of your choosing. We've included starter files for some
+languages where you can pseudocode, explain your solution and code.
 
-Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
-
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
